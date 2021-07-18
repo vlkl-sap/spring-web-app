@@ -1,7 +1,9 @@
 # Manual added
 .gradle
 .idea
+*iml
 build
+target/
 
 # Created by .ignore support plugin (hsz.mobi)
 ### Kotlin template
