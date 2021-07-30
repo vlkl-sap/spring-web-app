@@ -1,4 +1,4 @@
-package com.github.mibo.springwebapp;
+package com.github.mibo.spring.app;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
