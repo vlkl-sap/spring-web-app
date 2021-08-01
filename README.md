@@ -8,7 +8,14 @@
 ## How to run
 
   - Run `mvn spring-boot:run` in the command line
-  - Navigate to [http://localhost:8080](http://localhost:8080)
+  - Navigate to [http://localhost:8080](http://localhost:8080) for basic check
+  - Quick endpoint check (commands uses [HTTPie](https://httpie.io/))
+    - `http --auth user:password :8080/v1/users`
+    - `http --auth user:password POST :8080/v1/users/ name=mibo password=test`
+    - `http --auth mibo:test :8080/v1/users`
+    - `http --auth mibo:test PUT :8080/v1/users/mibo name=mibo password=test2021`
+    - `http --auth mibo:test :8080/v1/users`
+    - `http --auth mibo:test2021 :8080/v1/users`
 
 ## Additional links
 
