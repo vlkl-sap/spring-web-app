@@ -18,17 +18,6 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     http.authorizeRequests()
         .antMatchers("/v1/service/health", "/home").permitAll()
         .anyRequest().authenticated().and().httpBasic();
-    // for web form
-//    http.authorizeRequests()
-//        .antMatchers("/*", "/home").permitAll()
-//        .anyRequest().authenticated()
-//        .and()
-//        .formLogin()
-//        .loginPage("/login")
-//        .permitAll()
-//        .and()
-//        .logout()
-//        .permitAll();
   }
 
   @Bean
