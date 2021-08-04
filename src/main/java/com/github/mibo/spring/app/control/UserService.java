@@ -18,7 +18,6 @@ public class UserService implements UserDetailsService {
 
   public UserService(UserStore userStore) {
     this.userStore = userStore;
-    createUser("user", "password", User.Role.ADMIN);
   }
 
   public User createUser(String name, String password) {

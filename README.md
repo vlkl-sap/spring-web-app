@@ -17,7 +17,12 @@
     - `http --auth mibo:test :8080/v1/users`
     - `http --auth mibo:test2021 :8080/v1/users`
 
-## Additional links
+## Additional service links
 
   - Access [http://localhost:8080/v1/service/health](http://localhost:8080/v1/service/health) which is open
   - Access [http://localhost:8080/v1/users/](http://localhost:8080/v1/users/) which requires authentication (`user/password`)
+
+## Helpful tutorials, how-tos, ....
+
+  - [Spring Boot With H2 Database](https://www.baeldung.com/spring-boot-h2-database)
+  - [Quick Guide on Loading Initial Data with Spring Boot](https://www.baeldung.com/spring-boot-data-sql-and-schema-sql)
